@@ -1,0 +1,26 @@
+jobName: ActiveC2Detection_SentinelLake
+jobType: Notebook
+jobPath: ACCD_SentinelLake.ipynb
+jobDescription: ''
+scheduleConfig:
+  isEnabled: true
+  startTime: '2026-05-12T05:00:00.000+00:00'
+  repeatFrequency: Weeks
+  timeTable:
+    weekDays:
+      - Tuesday
+  interval: 1
+computeInfo:
+  nodeSize: small
+  driverCores: 4
+  driverMemory: 28GB
+  executorCores: 4
+  executorMemory: 28GB
+  isExecutorAutoScale: false
+  executorMinCount: 2
+  executorMaxCount: 2
+  friendlyName: small pool (12 vCores)
+inputTables: []
+outputTables: []
+runtimeArgs: []
+isDisabled: false
